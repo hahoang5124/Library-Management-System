@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thư viện thành phố hcm</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">HCMC Lis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">trang chủ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            chủ đề
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">tiểu thuyết</a></li>
+                            <li><a class="dropdown-item" href="#">sách thiếu nhi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">sách khoa học</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">giỏ sách</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            xin chào m
+                        </a>
+                        <ul class="dropdown-menu end-0" style="left: auto;">
+                            <li><a class="dropdown-item" href="#">thông tin cá nhân</a></li>
+                            <li><a class="dropdown-item" href="#">lịch sử mượn sách</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">đăng xuất</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-3">
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="tìm kiếm sách"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">tìm kiếm</button>
+                    </div>
+                </form>
+                <ul class="list-group md-3">
+                    <li class="list-group-item"><strong class="text-danger">các đầu sách được đọc nhiều</strong></li>
+                    <li class="list-group-item"><a
+                            class="link-offset-2 link-offset-3-hover link-underline-danger link-underline-opacity-0 link-underline-opacity-75-hover "
+                            href="#">
+                            dark nhân tâm
+                        </a></li>
+                    <li class="list-group-item"><a
+                            class="link-offset-2 link-offset-3-hover link-underline-danger link-underline-opacity-0 link-underline-opacity-75-hover"
+                            href="#">
+                            có làm mới có ăn
+                        </a></li>
+                    <li class="list-group-item"><a
+                            class="link-offset-2 link-offset-3-hover link-underline-danger link-underline-opacity-0 link-underline-opacity-75-hover"
+                            href="#">
+                            những tấm lòng cao cả
+                        </a></li>
+                    <li class="list-group-item"><a
+                            class="link-offset-2 link-offset-3-hover link-underline-danger link-underline-opacity-0 link-underline-opacity-75-hover"
+                            href="#">
+                            cách sống tốt
+                        </a></li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/OIP.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="w-50 mx-start">
+                        <h2><strong class="text-danger">những tấm lòng cao cả</strong></h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="fs-5"><strong>tác giả:</strong><em> Edmondo De Amicis</em></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="fs-5"><strong>thể loại</strong><em> truyện thiếu nhi</em></p>
+                                <small>còn<strong> 5 </strong>cuốn trong thư viện</small>
+                            </div>
+                        </div>
+
+                        <div class="row ">
+                            <div class="col-md-6 mt-1">
+                                <div class="fs-2 text-danger">100.000đ</div>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-outline-primary btn-lg">mượn ngay</button>
+                            </div>
+                        </div>
+                        <hr>
+                        <p>
+                            Lấy bối cảnh nước Ý đang thống nhất cũng như nói về đề tài yêu nước, cuốn tiểu thuyết
+                            được xuất bản.
+                            Tác phẩm được viết theo hình thức nhật ký của cậu bé Enico Bottini. Gia đình cậu là
+                            thuộc tầng lớp trung lưu trong khi nhiều bạn học khác lại xuất thân từ tầng lớp lao động.
+                            Enico sống
+                            trong tình yêu thương vô bờ của cha mẹ, được học điều hay lẽ phải từ người thầy giáo tuyệt
+                            vời hay
+                            có những người bạn hết lòng vì tình bạn.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <h2><strong class="text-danger">những cuốn sách bạn có thể thích</strong></h2>
+                    <hr>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="img/OIP.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">những tấm lòng cao cả</h5>
+                                <p class="card-text">5000đ</p>
+                                <a href="#" class="btn btn-primary">mượn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="img/OIP.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">những tấm lòng cao cả</h5>
+                                <p class="card-text">5000đ</p>
+                                <a href="#" class="btn btn-primary">mượn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="img/OIP.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">những tấm lòng cao cả</h5>
+                                <p class="card-text">5000đ</p>
+                                <a href="#" class="btn btn-primary">mượn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="img/OIP.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">những tấm lòng cao cả</h5>
+                                <p class="card-text">5000đ</p>
+                                <a href="#" class="btn btn-primary">mượn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h2><strong class="text-danger">cảm nghĩ của bạn</strong></h2>
+                <div class="row my-3 border rownded-3">
+                    <div class="col-sm-3">
+                        <strong>phạm nhật minh</strong><br>
+                        12:00 29/9/2023 <br>
+                        <strong>đã mượn:</strong> 1
+                    </div>
+                    <div class="col-sm-9">
+                        Tôi cũng không hiểu tại dao tôi lại chọn cuốn sách này để đọc. V cơ bản thì nó chưa có tác dụng
+                        gì với
+                        tôi cho lắm. Vì .. tôi chưa có gia đình. Đùa thôi. Quyển sách này là một trong những tác phẩm
+                        rất hữu
+                        ích với bất kỳ ai. Nó khiến cho bạn hiểu rõ thêm về người bạn khác giới, người chồng,... của
+                        mình. Những
+                        "bí ẩn" khó hiểu của 2 phái sẽ dần được phơi bày và sáng tỏ. Đọc xong tác phẩm, một cách khách
+                        quan, tôi
+                        đã học được nhiều điều. Sự khoan dung cần thiết, cáu nhìn rộng rãi để có thể tha thứ. Nhiều khi
+                        còn học
+                        được những "bí quyết định tồn" để không làm hỏng việc hoặc vỗ giận "người ấy". Nói chung, một
+                        cuốn sách
+                        rất hay để bạn dồn thời gian vào nó, nhìn giá hơi đắt nhưng số với lượng kiến thức được cũng cấp
+                        lại vô
+                        cùng hợp lý
+                    </div>
+                </div>
+                <div class="row my-3 border rownded-3">
+                    <div class="col-sm-3">
+                        <strong>phạm nhật minh</strong><br>
+                        12:00 29/9/2023 <br>
+                        <strong>đã mượn:</strong> 1
+                    </div>
+                    <div class="col-sm-9">
+                        Tôi cũng không hiểu tại dao tôi lại chọn cuốn sách này để đọc. V cơ bản thì nó chưa có tác dụng
+                        gì với
+                        tôi cho lắm. Vì .. tôi chưa có gia đình. Đùa thôi. Quyển sách này là một trong những tác phẩm
+                        rất hữu
+                        ích với bất kỳ ai. Nó khiến cho bạn hiểu rõ thêm về người bạn khác giới, người chồng,... của
+                        mình. Những
+                        "bí ẩn" khó hiểu của 2 phái sẽ dần được phơi bày và sáng tỏ. Đọc xong tác phẩm, một cách khách
+                        quan, tôi
+                        đã học được nhiều điều. Sự khoan dung cần thiết, cáu nhìn rộng rãi để có thể tha thứ. Nhiều khi
+                        còn học
+                        được những "bí quyết định tồn" để không làm hỏng việc hoặc vỗ giận "người ấy". Nói chung, một
+                        cuốn sách
+                        rất hay để bạn dồn thời gian vào nó, nhìn giá hơi đắt nhưng số với lượng kiến thức được cũng cấp
+                        lại vô
+                        cùng hợp lý
+                    </div>
+                </div>
+                <div class="row my-3 border rownded-3">
+                    <div class="col-sm-3">
+                        <strong>phạm nhật minh</strong><br>
+                        12:00 29/9/2023 <br>
+                        <strong>đã mượn:</strong> 1
+                    </div>
+                    <div class="col-sm-9">
+                        Tôi cũng không hiểu tại dao tôi lại chọn cuốn sách này để đọc. V cơ bản thì nó chưa có tác dụng
+                        gì với
+                        tôi cho lắm. Vì .. tôi chưa có gia đình. Đùa thôi. Quyển sách này là một trong những tác phẩm
+                        rất hữu
+                        ích với bất kỳ ai. Nó khiến cho bạn hiểu rõ thêm về người bạn khác giới, người chồng,... của
+                        mình. Những
+                        "bí ẩn" khó hiểu của 2 phái sẽ dần được phơi bày và sáng tỏ. Đọc xong tác phẩm, một cách khách
+                        quan, tôi
+                        đã học được nhiều điều. Sự khoan dung cần thiết, cáu nhìn rộng rãi để có thể tha thứ. Nhiều khi
+                        còn học
+                        được những "bí quyết định tồn" để không làm hỏng việc hoặc vỗ giận "người ấy". Nói chung, một
+                        cuốn sách
+                        rất hay để bạn dồn thời gian vào nó, nhìn giá hơi đắt nhưng số với lượng kiến thức được cũng cấp
+                        lại vô
+                        cùng hợp lý
+                    </div>
+                </div>
+                <div class="row my-3 border rownded-3">
+                    <div class="col-sm-3">
+                        <strong>phạm nhật minh</strong><br>
+                        12:00 29/9/2023 <br>
+                        <strong>đã mượn:</strong> 1
+                    </div>
+                    <div class="col-sm-9">
+                        Tôi cũng không hiểu tại dao tôi lại chọn cuốn sách này để đọc. V cơ bản thì nó chưa có tác dụng
+                        gì với
+                        tôi cho lắm. Vì .. tôi chưa có gia đình. Đùa thôi. Quyển sách này là một trong những tác phẩm
+                        rất hữu
+                        ích với bất kỳ ai. Nó khiến cho bạn hiểu rõ thêm về người bạn khác giới, người chồng,... của
+                        mình. Những
+                        "bí ẩn" khó hiểu của 2 phái sẽ dần được phơi bày và sáng tỏ. Đọc xong tác phẩm, một cách khách
+                        quan, tôi
+                        đã học được nhiều điều. Sự khoan dung cần thiết, cáu nhìn rộng rãi để có thể tha thứ. Nhiều khi
+                        còn học
+                        được những "bí quyết định tồn" để không làm hỏng việc hoặc vỗ giận "người ấy". Nói chung, một
+                        cuốn sách
+                        rất hay để bạn dồn thời gian vào nó, nhìn giá hơi đắt nhưng số với lượng kiến thức được cũng cấp
+                        lại vô
+                        cùng hợp lý
+                    </div>
+                </div>
+                <div class="row my-3 border rownded-3">
+                    <div class="col-sm-3">
+                        <strong>phạm nhật minh</strong><br>
+                        12:00 29/9/2023 <br>
+                        <strong>đã mượn:</strong> 1
+                    </div>
+                    <div class="col-sm-9">
+                        Tôi cũng không hiểu tại dao tôi lại chọn cuốn sách này để đọc. V cơ bản thì nó chưa có tác dụng
+                        gì với
+                        tôi cho lắm. Vì .. tôi chưa có gia đình. Đùa thôi. Quyển sách này là một trong những tác phẩm
+                        rất hữu
+                        ích với bất kỳ ai. Nó khiến cho bạn hiểu rõ thêm về người bạn khác giới, người chồng,... của
+                        mình. Những
+                        "bí ẩn" khó hiểu của 2 phái sẽ dần được phơi bày và sáng tỏ. Đọc xong tác phẩm, một cách khách
+                        quan, tôi
+                        đã học được nhiều điều. Sự khoan dung cần thiết, cáu nhìn rộng rãi để có thể tha thứ. Nhiều khi
+                        còn học
+                        được những "bí quyết định tồn" để không làm hỏng việc hoặc vỗ giận "người ấy". Nói chung, một
+                        cuốn sách
+                        rất hay để bạn dồn thời gian vào nó, nhìn giá hơi đắt nhưng số với lượng kiến thức được cũng cấp
+                        lại vô
+                        cùng hợp lý
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <footer class="text-center text-bg-dark rounded-3-3 text-danger"> bản quyền &copy; 2023, thuộc về thư viện tphcm
+    </footer>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

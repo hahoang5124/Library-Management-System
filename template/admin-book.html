@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> quản lý thư viện thành phố hcm</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 p-0 expand-lg collapse collapse-horizontal show"
+                style="background-color: #e3f2fd; min-height: 100vh;" id="openMenu">
+                <strong class="text-center d-block p-3">trang quản lý</strong>
+                <div class="list-group m-3">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        tổng quan
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">tài khoản</a>
+                    <a href="#" class="list-group-item list-group-item-action">chủ đề</a>
+                    <a href="#" class="list-group-item list-group-item-action">sách</a>
+                    <a href="#" class="list-group-item list-group-item-action">mượn trả</a>
+                </div>
+
+            </div>
+            <div class="col-md p-0">
+                <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
+                    <div class="container-fluid">
+
+                        <button class="btn btn-outline-light me-2 text-dark fw-bold" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#openMenu" aria-expanded="false"
+                            aria-controls="openMenu">
+                            =
+                        </button>
+
+                        <a class="navbar-brand" href="#">HCMC Lis</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        xin chào minh
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">xem trang chủ</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">đăng xuất</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav>
+                <div class="container">
+                    <a href="" class="btn btn-success float-end">thêm sách mới</a>
+                    <h2 class="my-3">sách</h2>
+                    <table class="table text-center align-middle">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>hình ảnh</th>
+                                <th class="text-start">tựa sách</th>
+                                <th class="text-start">tác giả</th>
+                                <th class="text-start">giá trị</th>
+                                <th>số lượng</th>
+                                <th>chủ đề</th>
+                                <th>số cảm nghĩ</th>
+                                <th>lượt đọc</th>
+                                <th>lượt xem</th>
+                                <th class="text-end">hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="img/OIP.jpg" class="rownded-2" style="width: 64px; "></td>
+                                <td class="text-start">những tấm lòng cao cả</td>
+                                <td class="text-start">Edmondo De Amicis</td>
+                                <td class="text-start">100.000đ</td>
+                                <td>10</td>
+                                <td>truyện thiếu nhi</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>5</td>
+                                <td class="text-end">
+                                    <button class="btn btn-warning">sửa</button>
+                                    <button class="btn btn-danger">xóa</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
